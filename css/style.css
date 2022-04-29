@@ -1,3 +1,55 @@
 body{
-    background-color: #0000;
+    background-color: #000000;
+    color: #ffff;
+}
+#logo-phone{
+    max-width: 250px;
+}
+#logo-menu-phone{
+    max-width: 150px;
+}
+#logo-apartados{
+    max-width: 120px;
+}
+.principal{
+    background-color: #FF8F15;
+    border-color: #FF8F15;
+    width: 300px;
+}
+.principal:hover{
+    background-color: #FF8F15;
+    border-color: #FF8F15;
+}
+.border-bottom{
+    border-bottom: 2px solid #fff;
+}
+.bt-menu{
+    margin-top: -30px;
+    max-width: 20px;
+    float: right;
+    position: relative;
+}
+.btn-control{
+    max-width: 40px;
+}
+.fondo-retina{
+    background-image: url("../img/fondo-medio.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.naranja{
+    color: #FF8F15;
+}
+.imagenes{
+    max-width: 380px;
+}
+.text-compl{
+    margin-left: 5.5rem;
+}
+.nuevo{
+    background-color: #FF8F15;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
 }
