@@ -37,7 +37,7 @@
                 <h6 class="text-center pt-5 pb-5">VER DIAGNÓSTICOS PARA:</h6>
             </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="onboarding-card__arrow" data-target="#card_retina_vitreo">
+            <div class="onboarding-card__arrow" data-target="#card_1">
                 <h3 class="ms-4 pt-2 h5">RETINA Y VÍTREO</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
@@ -85,22 +85,17 @@
             </div> 
         </div>
     </div>
-   
-    <!--  FONDO RETINA CON TÍTULO DE LA SECCIÓN -->
-    <div class="container d-block d-sm-block d-md-none  onboarding-card" id="card_retina_vitreo">
-         <!--BOTONES DE LOS LADOS-->
-    <a href="#" class="btn-flotante-der onboarding-card__arrow" data-target="#card_menu"><img src="img/boton-nav-der.png" alt=""></a>
-    <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/boton-nav-izq.png" alt=""></a>
-        <div class="row fondo-retina categoria fixed-top">
+    <!-- 1.- OCT DE MACULA DE ALTA DEFINICIÓN -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card " id="card_1">
+        <div class="row fondo-retina pt-5 pb-3">
             <div class="col-6 col-sm-6">
                 <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
             </div>
-            <div class="col-6 col-sm-6 pt-1">
+            <div class="col-6 col-sm-6">
                 <h6>DIAGNÓSTICO PARA</h6>
-                <h5 class="h6">RETINA Y VITREO</h5>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
             </div>
         </div>
-        <!-- 1.- OCT DE MACULA DE ALTA DEFINICIÓN -->
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">1</h1>
@@ -114,12 +109,29 @@
             <img src="img/oct-de-macula-alta-definicion-abajo.jpg" alt="OCT DE MACULA DE ALTA DEFINICIÓN" class="img-fluid pt-3"/>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_menu">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control " />
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_2">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 2.- ANGIO-OCT DE MACULA -->
+    </div>
+    <!-- 2.- ANGIO-OCT DE MACULA -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_2">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">2</h1>
@@ -135,12 +147,29 @@
             <img src="img/Angio-oct-de-macula.jpg" alt="ANGIO-OCT DE MACULA" class="img-fluid"/>
         </div>
         <div class="row d-flex justify-content-center pt-5" >
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_1">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_3">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 3.- ANGIOPLEX DE RETINA -->
+    </div>
+    <!-- 3.- ANGIOPLEX DE RETINA -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_3">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">3</h1>
@@ -158,12 +187,29 @@
 
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_2">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_4">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 4.- ANGIOGRAMA CON FLUORESCEÍNA -->
+    </div>
+    <!-- 4.- ANGIOGRAMA CON FLUORESCEÍNA -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_4">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">4</h1>
@@ -183,12 +229,29 @@
             <h6>Ilustran las dilataciones localizadas de los capilares retinianos (microaneurismas) y áreas de no perfusión periférica.</h6>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_3">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_5">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 5.- FOTOGRAFÍA DE CAMPO AMPLIO -->
+    </div>
+    <!-- 5.- FOTOGRAFÍA DE CAMPO AMPLIO -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_5">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">5</h1>
@@ -197,7 +260,7 @@
                 <h2 class="text-start">FOTOGRAFÍA DE <br> CAMPO AMPLIO</h2>
             </div>
             <div class="col-3 col-sm-6 nuevo">
-                <h2 class="text-start h5 pt-2 me-3">NUEVO</h2>
+                <h2 class="text-start h4 pt-1">NUEVO</h2>
             </div>
         </div>
         <div class="row d-flex justify-content-center ms-3">
@@ -207,12 +270,29 @@
             <img src="img/fotografia-de-campo-amplio.jpg" alt="FOTOGRAFÍA DE CAMPO AMPLIO" class="img-fluid"/>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_4">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_6">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 6.- FOTOGRAFÍA DE CAMPO ULTRA-AMPLIO -->
+    </div>
+    <!-- 6.- FOTOGRAFÍA DE CAMPO ULTRA-AMPLIO -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_6">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">6</h1>
@@ -221,7 +301,7 @@
                 <h2 class="text-start">FOTOGRAFÍA <br>DE CAMPO <br> ULTRA-AMPLIO</h2>
             </div>
             <div class="col-3 col-sm-6 nuevo">
-                <h2 class="text-start h5 pt-2 me-3">NUEVO</h2>
+                <h2 class="text-start h4 pt-1">NUEVO</h2>
             </div>
         </div>
         <div class="row d-flex justify-content-center ms-3">
@@ -231,12 +311,29 @@
             <img src="img/fotografia-de-campo-ultra-amplio.jpg" alt="FOTOGRAFÍA DE CAMPO ULTRA-AMPLIO" class="img-fluid"/>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_5">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_7">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 7.- FOTOGRAFÍA CON AUTOFLUORESCENCIA DE CAMPO AMPLIO -->
+    </div>
+    <!-- 7.- FOTOGRAFÍA CON AUTOFLUORESCENCIA DE CAMPO AMPLIO -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_7">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">7</h1>
@@ -255,12 +352,29 @@
             <h6>Presenta hasta el mínimo detalle en la zona avascular foveal y ofrece una representación de los microaneurismas desde la fóvea hasta la periferia.</h6>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_6">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_8">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
-        <!-- 8.- ANÁLISIS DE SEGUIMIENTO DE OCT MACULAR FORUM -->
+    </div>
+    <!-- 8.- ANÁLISIS DE SEGUIMIENTO DE OCT MACULAR FORUM -->
+    <div class="container d-block d-sm-block d-md-none onboarding-card" id="card_8">
+        <div class="row fondo-retina pt-5 pb-3">
+            <div class="col-6 col-sm-6">
+                <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+            </div>
+            <div class="col-6 col-sm-6">
+                <h6>DIAGNÓSTICO PARA</h6>
+                <h5 class="h1">RETINA Y <br> VITREO</h5>
+            </div>
+        </div>
         <div class="row pt-5 ms-3">
             <div class="col-1 col-sm-6 me-2">
                 <h1 class="display-1">8</h1>
@@ -275,13 +389,18 @@
             <img src="img/analisis-seguimiento-macular-abajo.jpg" alt=" ANÁLISIS DE SEGUIMIENTO DE OCT MACULAR FORUM " class="img-fluid pt-3"/>
         </div>
         <div class="row d-flex justify-content-center pt-5">
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_7">
+                <img src="img/boton-nav-izq.png" alt="Anterior" class="img-fluid btn-control"/>
+            </div>
             <div class="col-5 col-sm-3 text-center">
                 <h6>Equipo utilizado:</h6>
                 <h5 class="naranja">CLARUS 700</h5>
             </div>
+            <div class="col-3 col-sm-3 ms-3 onboarding-card__arrow" data-target="#card_menu">
+                <img src="img/boton-nav-der.png" alt="Siguiente" class="img-fluid btn-control"/>
+            </div>
         </div>
     </div>
-    
     <!--TERMIMNA MODO CELULAR-->
     <!--MODO COMPUTADORA-->
     <header class="d-none d-sm-none d-md-block header-web pt-5">
@@ -751,7 +870,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

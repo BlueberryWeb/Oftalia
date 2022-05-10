@@ -12,4 +12,8 @@
       target.classList.add('visible-card-web');
     }, false);
   });
+  //MENÚ FIJADO
+  
+
+  //TERMINA MENU FIJADO
   

@@ -9,7 +9,8 @@ body{
     max-width: 150px;
 }
 #logo-apartados{
-    max-width: 120px;
+    margin-top: 0.5rem;
+    max-width: 70px;
 }
 .principal{
     background-color: #FF8F15;
@@ -37,7 +38,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
+
 .naranja{
     color: #FF8F15;
 }
@@ -138,3 +141,31 @@ body{
     animation-duration: 3s;
     animation-name: animTexto;
 }
+/*BOTÓN QUE SIEMPRE ESTÁ AL LADO*/
+.btn-flotante-der {
+    position: fixed;
+    bottom: 120px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+  }
+.btn-flotante-der:hover {
+  transform: translateY(-7px);
+}
+.btn-flotante-der img{
+    max-width: 50px;
+}
+.btn-flotante-iz {
+    position: fixed;
+    bottom: 120px;
+    left: 10px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+  }
+.btn-flotante-iz:hover {
+  transform: translateY(-7px);
+}
+.btn-flotante-iz img{
+    max-width: 50px;
+}
+/*TERMINA BOTÓN*/
