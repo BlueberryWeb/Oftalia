@@ -2,6 +2,11 @@ body{
     background-color: #000000;
     color: #ffff;
 }
+html, body {
+    width: 100% !important;
+    height: auto;
+    overflow-x: hidden;
+}
 #logo-phone{
     max-width: 250px;
 }
@@ -71,7 +76,7 @@ body{
 .visible-card {
     opacity: 1;
     visibility: visible;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-name: animTexto;
 }
   @keyframes animTexto {
@@ -106,6 +111,7 @@ body{
     background-color: #FF8F15;
     border-color: #FF8F15;
     width: 250px;
+    cursor: pointer;
 }
 .btn-web-diagnostico:hover{
     background-color: #FF8F15;
@@ -138,7 +144,7 @@ body{
 .visible-card-web {
     opacity: 1;
     visibility: visible;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: animTexto;
 }
 /*BOTÓN QUE SIEMPRE ESTÁ AL LADO*/
@@ -171,4 +177,10 @@ body{
 /*TERMINA BOTÓN*/
 .no1{
     margin-top: 6rem;
+}
+.onboarding-card-web__arrow{
+    cursor: pointer;
+}
+.paq-34{
+    width: 300px;
 }
