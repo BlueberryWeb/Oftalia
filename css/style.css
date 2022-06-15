@@ -2,6 +2,23 @@ body{
     background-color: #000000;
     color: #ffff;
 }
+@font-face {
+    font-family: 'Montserrat ExtraBold';
+    src: url("fonts/Montserrat-ExtraBold.ttf"); 
+}
+@font-face {
+    font-family: 'Montserrat Ligth';
+    src: url("fonts/Montserrat-Light.ttf"); 
+}
+.bold{
+    font-family: 'Montserrat ExtraBold';
+}
+.ligth{
+    font-family: 'Montserrat Ligth';
+}
+.none_a_decoration{
+    text-decoration: none;
+}
 #logo-phone{
     max-width: 250px;
 }
@@ -11,6 +28,9 @@ body{
 #logo-apartados{
     margin-top: 0.5rem;
     max-width: 70px;
+}
+#logo-contacto-cel{
+    width: 100px;
 }
 .principal{
     background-color: #FF8F15;
