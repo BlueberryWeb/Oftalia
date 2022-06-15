@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bootstrap Navbar Stickied to the Top</title>
+<title>OFTALIA</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="css/style.css"/>
@@ -44,43 +44,49 @@
             </div> 
         </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="">
-                <h3 class="ms-4 pt-2 h5">GLUCOMA Y NERVIO ÓPTICO</h3>
+            <div class="onboarding-card__arrow" data-target="#card_glaucoma">
+                <h3 class="ms-4 pt-2 h5">GLAUCOMA</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_glaucoma_nervio_optico">
+                <h3 class="ms-4 pt-2 h5">GLAUCOMA Y NERVIO ÓPTICO</h3>
+                <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
+            </div> 
+        </div>
+        <div class="row pt-3 border-bottom pb-3">
+            <div class="onboarding-card__arrow" data-target="#card_cornea">
                 <h3 class="ms-4 pt-2 h5">CÓRNEA</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-2 border-bottom pb-2">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_ecografia">
                 <h3 class="ms-4 pt-2 h5">ECOGRAFÍA Y CÁLCULO <br> DE LENTE INTRAOCULAR</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-2 border-bottom pb-2">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_paquetes">
                 <h3 class="ms-4 pt-2 h5">PAQUETES DE CÁLCULO PARA <br> LENTES PREMIUM</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_valoracion">
                 <h3 class="ms-4 pt-2 h5">VALORACIÓN DE OJO SECO</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_cornea">
                 <h3 class="ms-4 pt-2 h5">EQUIPOS</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
         </div>
         <div class="row pt-3 border-bottom pb-3">
-            <div class="">
+            <div class="onboarding-card__arrow" data-target="#card_contacto">
                 <h3 class="ms-4 pt-2 h5">CONTACTANOS</h3>
                 <img src="img/boton-nav-der.png" alt="OFTALIA" class="img-fluid bt-menu me-3"/>
             </div> 
@@ -96,15 +102,15 @@
                         <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
                     </div>
                     <div class="col-6 col-sm-6 pt-1">
-                        <h6>DIAGNÓSTICO PARA</h6>
-                        <h5 class="h6">RETINA Y VITREO</h5>
+                        <h6 class="">DIAGNÓSTICO PARA</h6>
+                        <h5 class="naranja">RETINA Y VITREO</h5>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="container mt-4" id="card_2">
-            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt=""></a>
-            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt=""></a>
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
             
             <!-- 1.- OCT DE MACULA DE ALTA DEFINICIÓN -->
             <div class="row pt-5 ms-3">
@@ -118,12 +124,6 @@
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/oct-de-macula-alta-definicion-arriba.jpg" alt="OCT DE MACULA DE ALTA DEFINICIÓN" class="img-fluid"/>
                 <img src="img/oct-de-macula-alta-definicion-abajo.jpg" alt="OCT DE MACULA DE ALTA DEFINICIÓN" class="img-fluid pt-3"/>
-            </div>
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
             </div>
             <!-- 2.- ANGIO-OCT DE MACULA -->
             <div class="row pt-5 ms-3">
@@ -140,12 +140,6 @@
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/Angio-oct-de-macula.jpg" alt="ANGIO-OCT DE MACULA" class="img-fluid"/>
             </div>
-            <div class="row d-flex justify-content-center pt-5" >
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
-            </div>
             <!-- 3.- ANGIOPLEX DE RETINA -->
             <div class="row pt-5 ms-3">
                 <div class="col-1 col-sm-6 me-2">
@@ -161,13 +155,6 @@
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/angioplex-de-retina-arriba.jpg" alt="ANGIOPLEX DE RETINA " class="img-fluid"/>
                 <img src="img/angiopex-de-retina-abajo.jpg" alt="ANGIOPLEX DE RETINA " class="img-fluid pt-3"/>
-    
-            </div>
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
             </div>
             <!-- 4.- ANGIOGRAMA CON FLUORESCEÍNA -->
             <div class="row pt-5 ms-3">
@@ -189,14 +176,8 @@
             <div class="row d-flex justify-content-center ms-3 pt-5">
                 <h6>Ilustran las dilataciones localizadas de los capilares retinianos (microaneurismas) y áreas de no perfusión periférica.</h6>
             </div>
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
-            </div>
-              <!-- 5.- FOTOGRAFÍA DE CAMPO AMPLIO -->
-             <div class="row pt-5 ms-3">
+            <!-- 5.- FOTOGRAFÍA DE CAMPO AMPLIO -->
+            <div class="row pt-5 ms-3">
                 <div class="col-1 col-sm-6 me-2">
                     <h1 class="display-1">5</h1>
                 </div>
@@ -212,13 +193,6 @@
             </div>
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/fotografia-de-campo-amplio.jpg" alt="FOTOGRAFÍA DE CAMPO AMPLIO" class="img-fluid"/>
-            </div>
-            
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
             </div>
              <!-- 6.- FOTOGRAFÍA DE CAMPO ULTRA-AMPLIO -->
              <div class="row pt-5 ms-3">
@@ -238,13 +212,6 @@
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/fotografia-de-campo-ultra-amplio.jpg" alt="FOTOGRAFÍA DE CAMPO ULTRA-AMPLIO" class="img-fluid"/>
             </div>
-            
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
-            </div>
              <!-- 7.- FOTOGRAFÍA CON AUTOFLUORESCENCIA DE CAMPO AMPLIO -->
              <div class="row pt-5 ms-3">
                 <div class="col-1 col-sm-6 me-2">
@@ -259,12 +226,6 @@
             </div>
             <div class="row pt-3 imagenes ms-2">
                 <img src="img/angiograma-con-fluorescencia.jpg" alt="FOTOGRAFÍA CON AUTOFLUORESCENCIA DE CAMPO AMPLIO" class="img-fluid"/>
-            </div>
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
-                </div>
             </div>
             <!-- 8.- ANÁLISIS DE SEGUIMIENTO DE OCT MACULAR FORUM -->
              <div class="row pt-5 ms-3">
@@ -287,17 +248,683 @@
             <div class="row d-flex justify-content-center ms-3 pt-5">
                 <h6>Ilustran las dilataciones localizadas de los capilares retinianos (microaneurismas) y áreas de no perfusión periférica.</h6>
             </div>
-            <div class="row d-flex justify-content-center pt-5">
-                <div class="col-5 col-sm-3 text-center">
-                    <h6>Equipo utilizado:</h6>
-                    <h5 class="naranja">CLARUS 700</h5>
+        </div>
+    </div>
+    <!-- GLUCOMA-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_glaucoma">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">GLAUCOMA</h5>
+                    </div>
                 </div>
             </div>
-            
-           
-        </div>
-
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 9.- OCT DE NERVIO ÓPTICO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1">9</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start">OCT DE <br> NERVIO ÓPTICO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/oct-de-nervio-optico.jpg" alt="OCT DE NERVIO ÓPTICO" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Incluye: OCT , foto a color y aneritra de nervio óptico, valora también la capa de células ganglionares.</h6>
+            </div>
+            <!-- 10.- ANGIO-OCT DE NERVIO ÓPTICO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">10</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">ANGIO-OCT DE <br> NERVIO ÓPTICO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/angio-oct-de-nervio-optico-arriba.jpg" alt="OCT DE NERVIO ÓPTICO" class="img-fluid"/>
+                <img src="img/angio-oct-de-nervio-optico-abajo.jpg" alt="OCT DE NERVIO ÓPTICO" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Angiografía sin medio de contraste, OCT y AngioPlex con foto a color y aneritra de nervio óptico.</h6>
+            </div>
+            <!-- 11.- OCT DEL ÁNGULO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">11</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">OCT <br> DEL ÁNGULO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/oct-del-angulo-arriba.jpg" alt="OCT DEL ÁNGULO" class="img-fluid"/>
+                <img src="img/oct-del-angulo-abajo.jpg" alt="OCT DEL ÁNGULO" class="img-fluid"/>
+            </div>
+            <!-- 12.- CAMPIMETRÍA HUMPHREY -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">12</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">CAMPIMETRIA <br> HUMPHREY</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/campimetria-humphrey.jpg" alt="CAMPIMETRÍA HUMPHREY" class="img-fluid"/>
+            </div>
+            <!-- 13.- PERFIL DE GLAUCOMA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">13</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PERFIL <br> DE GLAUCOMA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/perfil-de-glaucoma.jpg" alt="PERFIL DE GLAUCOMA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Campimetría 24-2, OCT de Nervio Óptico y de ángulo, Paquimetría, Foto de nervio óptico a color y aneritra.</h6>
+            </div>
+            <!-- 14.- FOTO CLÍNICA DE NERVIO ÓPTICO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">14</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">FOTO CLÍNICA <br> DE NERVIO ÓPTICO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/foto-clinica-de-nervio-optico.jpg" alt="FOTO CLÍNICA DE NERVIO ÓPTICO" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Incluye: Foto a color y aneritra.</h6>
+            </div>
+        </div> <!--Div del container-->
     </div>
+    <!--GLAUCOMA Y NERVIO ÓPTICO-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_glaucoma_nervio_optico">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">CÓRNEA</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 19.- TOPOGRAFÍA CORNEAL (SIRIUS) -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">19</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">TOPOGRAFÍA <br> CORNEAL (SIRIUS)</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/topografia-corneal.jpg" alt="TOPOGRAFÍA CORNEAL (SIRIUS)" class="img-fluid"/>
+            </div>
+            <!-- 20.- PERFIL REFRACTIVO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">20</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PERFIL <br> REFRACTIVO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <h6>TOPOGRAFÍA</h6>
+                <img src="img/perfil-refractivo-topografia.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>ABERROMETRÍA A 3 Y 5 MM</h6>
+                <img src="img/perfil-refractivo-aberrometria.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>PAQUIMETRÍA ULTRASÓNICA</h6>
+                <img src="img/perfil-refractivo-paquimetria.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>AUTOREFRACCIÓN</h6>
+                <img src="img/perfil-refractivo-autorefraccion.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+            </div>
+            <!-- 21.- PERFIL DE QUERATOCONO O ECTASIA POST REFRACTIVA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">21</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">PERFIL DE QUERATOCONO <br> O ECTASIA POST <br> REFRACTIVA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/perfil-de-queratocono.jpg" alt="PERFIL DE QUERATOCONO O ECTASIA POST REFRACTIVA " class="img-fluid"/>
+            </div>
+            <!-- 22.- MICROSCOPÍA ESPECULAR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">22</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">MICROSCOPÍA <br> ESPECULAR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/microscopia-especular-arriba.jpg" alt="MICROSCOPÍA ESPECULAR" class="img-fluid"/>
+                <img src="img/microscopia-especular-abajo.jpg" alt="MICROSCOPÍA ESPECULAR" class="img-fluid"/>
+            </div>
+            <!-- 23.- OCT DE CÓRNEA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">23</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">OCT DE <br> CÓRNEA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/oct-de-cornea-arriba.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+                <img src="img/oct-de-cornea-medio.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+                <img src="img/oct-de-cornea-abajo.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Panorámica corneal, paquimetría, post LASIK, medición de flap y cama estroma.</h6>
+            </div>
+            <!-- 24.- ABERROMETRÍA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">24</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">ABERROMETRÍA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/aberrometria.jpg" alt="ABERROMETRÍA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>3, 5 y 7 mm de diametro pupilar y pupilografÍa.</h6>
+            </div>
+            <!-- 25.- FOTOGRAFÍA A COLOR DE SEGMENTO ANTERIOR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">25</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">FOTOGRAFÍA A COLOR <br> DE SEGMENTO <br> ANTERIOR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/fotografia-segmento-anterior.jpg" alt="FOTOGRAFÍA A COLOR DE SEGMENTO ANTERIOR " class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Incluye toma panorámica, corte y acercamiento.</h6>
+            </div>
+            <!-- 26.- PAQUIMETRÍA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">26</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PAQUIMETRÍA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/paquimetria.jpg" alt="PAQUIMETRÍA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Paquimetría: Óptica o Ultrasónica.</h6>
+            </div>              
+        </div>
+    </div>
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" >
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">GLAUCOMA Y NERVIO ÓPTICO</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 15.- PANOMAP -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">15</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PANOMAP</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/panomap.jpg" alt="PANOMAP" class="img-fluid"/>
+            </div>
+            <!-- 16.- ANÁLISIS DE PROGRESIÓN DE GUIADA (GPA) DE GLAUCOMA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">16</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">ANÁLISIS DE PROGRESIÓN <br> DE GUIADA (GPA) DE <br> GLAUCOMA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/analisis-de-progresion-de-guiada.jpg" alt="ANÁLISIS DE PROGRESIÓN DE GUIADA (GPA) DE GLAUCOMA" class="img-fluid"/>
+            </div>
+            <!-- 17.- ANÁLISIS ESTRUCTURAL-FUNCIONAL DE GLAUCOMA FORUM -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">17</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">ANÁLISIS <br> ESTRUCTURAL-FUNCIONAL <br> DE GLAUCOMA FORUM</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/analisis-estructural-funcional-de-glaucoma.jpg" alt="ANÁLISIS ESTRUCTURAL-FUNCIONAL DE GLAUCOMA FORUM" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Integra: OCT de Nervio Óptico RNFL, Campimetría 24-2 y foto de N.O. con Clarus en un reporte único de gran valor diagnóstico.</h6>
+            </div>
+            <!-- 18.- ANÁLISIS ESTRUCTURAL-FUNCIONAL VISIÓN CENTRAL FORUM-->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">18</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">ANÁLISIS <br> ESTRUCTURAL-FUNCIONAL <br> VISIÓN CENTRAL FORUM</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/analisis-estructural-funcional-vision-central.jpg" alt="ANÁLISIS ESTRUCTURAL-FUNCIONAL VISIÓN CENTRAL FORUM" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Integra OCT de células ganglionares con Campimetría 10-2 en un reporte único para valorar afección de visión central.</h6>
+            </div>  
+        </div>
+    </div>
+    <!-- CÓRNEA -->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_cornea">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">CÓRNEA</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 19.- TOPOGRAFÍA CORNEAL (SIRIUS) -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">19</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">TOPOGRAFÍA <br> CORNEAL (SIRIUS)</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/topografia-corneal.jpg" alt="TOPOGRAFÍA CORNEAL (SIRIUS)" class="img-fluid"/>
+            </div>
+            <!-- 20.- PERFIL REFRACTIVO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">20</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PERFIL <br> REFRACTIVO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <h6>TOPOGRAFÍA</h6>
+                <img src="img/perfil-refractivo-topografia.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>ABERROMETRÍA A 3 Y 5 MM</h6>
+                <img src="img/perfil-refractivo-aberrometria.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>PAQUIMETRÍA ULTRASÓNICA</h6>
+                <img src="img/perfil-refractivo-paquimetria.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+                <h6>AUTOREFRACCIÓN</h6>
+                <img src="img/perfil-refractivo-autorefraccion.jpg" alt="PERFIL REFRACTIVO" class="img-fluid"/>
+            </div>
+            <!-- 21.- PERFIL DE QUERATOCONO O ECTASIA POST REFRACTIVA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">21</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">PERFIL DE QUERATOCONO <br> O ECTASIA POST <br> REFRACTIVA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/perfil-de-queratocono.jpg" alt="PERFIL DE QUERATOCONO O ECTASIA POST REFRACTIVA " class="img-fluid"/>
+            </div>
+            <!-- 22.- MICROSCOPÍA ESPECULAR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">22</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">MICROSCOPÍA <br> ESPECULAR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/microscopia-especular-arriba.jpg" alt="MICROSCOPÍA ESPECULAR" class="img-fluid"/>
+                <img src="img/microscopia-especular-abajo.jpg" alt="MICROSCOPÍA ESPECULAR" class="img-fluid"/>
+            </div>
+            <!-- 23.- OCT DE CÓRNEA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">23</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">OCT DE <br> CÓRNEA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/oct-de-cornea-arriba.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+                <img src="img/oct-de-cornea-medio.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+                <img src="img/oct-de-cornea-abajo.jpg" alt="OCT DE CÓRNEA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Panorámica corneal, paquimetría, post LASIK, medición de flap y cama estroma.</h6>
+            </div>
+            <!-- 24.- ABERROMETRÍA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">24</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">ABERROMETRÍA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/aberrometria.jpg" alt="ABERROMETRÍA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>3, 5 y 7 mm de diametro pupilar y pupilografÍa.</h6>
+            </div>
+            <!-- 25.- FOTOGRAFÍA A COLOR DE SEGMENTO ANTERIOR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">25</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4 h6">FOTOGRAFÍA A COLOR <br> DE SEGMENTO <br> ANTERIOR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/fotografia-segmento-anterior.jpg" alt="FOTOGRAFÍA A COLOR DE SEGMENTO ANTERIOR " class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Incluye toma panorámica, corte y acercamiento.</h6>
+            </div>
+            <!-- 26.- PAQUIMETRÍA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">26</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PAQUIMETRÍA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/paquimetria.jpg" alt="PAQUIMETRÍA" class="img-fluid"/>
+            </div>
+            <div class="row d-flex justify-content-center ms-3 pt-5">
+                <h6>Paquimetría: Óptica o Ultrasónica.</h6>
+            </div>              
+        </div>
+    </div>
+    <!--ECOGRAFÍA Y CÁCULO DE LENTE INTRAOCULAR-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_ecografia">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">ECOGRAFÍA Y CÁCULO DE LENTE INTRAOCULAR</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 27.- CÁLCULO DE LENTE INTRAOCULAR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">27</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">CÁLCULO DE LENTE <br> INTRAOCULAR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/calculo-de-lente-intraocular.jpg" alt="CÁLCULO DE LENTE INTRAOCULAR " class="img-fluid"/>
+            </div>
+            <!-- 28.- CÁLCULO DE LIO + MICROSCOPIA ESPECULAR -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">28</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">CÁLCULO DE LIO + <br> MICROSCOPIA <br> ESPECULAR</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/calculo-de-lio-microscopia-arriba.jpg" alt="CÁLCULO DE LIO + MICROSCOPIA ESPECULAR" class="img-fluid"/>
+                <img src="img/calculo-de-lio-microscopia-abajo.jpg" alt="CÁLCULO DE LIO + MICROSCOPIA ESPECULAR" class="img-fluid"/>
+            </div>
+            <!-- 29.- CÁLCULO DE LIO + ECO MODO B -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">29</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">CÁLCULO DE LIO + <br> ECO MODO B</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/calculo-de-lio-eco-arriba.jpg" alt="CÁLCULO DE LIO + ECO MODO B" class="img-fluid"/>
+                <img src="img/calculo-de-lio-eco-abajo.jpg" alt="CÁLCULO DE LIO + ECO MODO B" class="img-fluid"/>
+            </div>
+            <!-- 30.- CÁLCULO DE LIO + MICROSCOPÍA ESPECULAR +  ECO MODO B -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">30</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">CÁLCULO DE LIO + <br> MICROSCOPÍA <br> ESPECULAR + ECO MODO B</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/calculo-de-lio-microscopia-eco-arriba.jpg" alt="CÁLCULO DE LIO + MICROSCOPÍA ESPECULAR +  ECO MODO B" class="img-fluid"/>
+                <img src="img/calculo-de-lio-microspocia-eco-medio.jpg" alt="CÁLCULO DE LIO + MICROSCOPÍA ESPECULAR +  ECO MODO B" class="img-fluid"/>
+                <img src="img/calculo-de-lio-microscopia-eco-abajo.jpg" alt="CÁLCULO DE LIO + MICROSCOPÍA ESPECULAR +  ECO MODO B" class="img-fluid"/>
+            </div>
+            <!-- 31.- ECOGRAFÍA MODO B-->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">31</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">ECOGRAFÍA <br> MODO B</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/ecografia-modo-B.jpg" alt="ECOGRAFÍA MODO B" class="img-fluid"/>
+            </div>
+            <!-- 32.- DENSITOMETRÍA DE CRISTALINO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">32</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">DENSITOMETRÍA <br> DE CRISTALINO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/densitometria-de-cristalino.jpg" alt="DENSITOMETRÍA DE CRISTALINO" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+    <!--PAQUETES DE CÁLCULO PARA LENTES PREMIUM-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_paquetes">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">PAQUETES DE CÁLCULO PARA LENTES PREMIUM</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 33.- PAQUETE CÁLCULO TORICOS -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">33</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PAQUETE<br> CÁLCULO TORICOS</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <h6 class="naranja">CÁLCULO DE LIO</h6>
+                <img src="img/paq-calculo-de-lio-arriba.jpg" alt="PAQUETE CÁLCULO TORICOS" class="img-fluid"/>
+                <h6 class="naranja">TOPOGRAFÍA SIRIUS</h6>
+                <img src="img/paq-topografias-sirus.jpg" alt="PAQUETE CÁLCULO TORICOS" class="img-fluid"/>
+                <h6 class="naranja">MICROSCOPÍA ESPECULAR</h6>
+                <img src="img/paq-microscopia-especular.jpg" alt="PAQUETE CÁLCULO TORICOS" class="img-fluid"/>
+            </div>
+            <!-- 34.- PAQUETE CÁLCULO LIO PREMIUM -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">34</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PAQUETE CÁLCULO<br> LIO PREMIUM</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <div class="col-6">
+                    <h6 class="naranja pb-3">CÁLCULO DE LIO</h6>
+                    <img src="img/paq-premium-calculo-de-lio.jpg" alt="PAQUETE CÁLCULO LIO PREMIUM" class="img-fluid pb-5"/>
+                    <h6 class="naranja pb-3">TOPOGRAFÍA SIRIUS</h6>
+                    <img src="img/paq-premium-topografia-sirius.jpg" alt="PAQUETE CÁLCULO LIO PREMIUM" class="img-fluid"/>
+                </div>
+                <div class="col-6">
+                    <h6 class="naranja pb-3">MICROSCOPÍA ESPECULAR</h6>
+                    <img src="img/paq-premium-microscopia-especular.jpg" alt="PAQUETE CÁLCULO LIO PREMIUM" class="img-fluid pb-5"/>
+                    <h6 class="naranja pb-3">OCT MACULAR</h6>
+                    <img src="img/paq-premium-oct-macular.jpg" alt="PAQUETE CÁLCULO LIO PREMIUM" class="img-fluid"/>
+                </div>
+                
+               
+                
+            </div>
+        </div>
+    </div>
+    <!--VALORACIÓN DE OJO SECO-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_valoracion">
+        <nav class="sticky-top navbar-expand-lg ">
+            <div class="container-fluid fondo-retina">
+                <div class="row">
+                    <div class="col-6 col-sm-6">
+                        <img src="img/logo-oftalia-phone.png" alt="OFTALIA" class="img-fluid ms-4" id="logo-apartados"/>
+                    </div>
+                    <div class="col-6 col-sm-6 pt-1">
+                        <h6>DIAGNÓSTICO PARA</h6>
+                        <h5 class=" naranja">VALORACIÓN DE OJO SECO</h5>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4" id="card_2">
+            <a href="#" class="btn-flotante-der " data-target="#"><img src="img/top-button.png" alt="Inicio"/></a>
+            <a href="#" class="btn-flotante-iz onboarding-card__arrow" data-target="#card_menu"><img src="img/home-icon.png" alt="Menu"/></a>
+            <!-- 35.-  VALORACIÓN DE PELÍCULA LAGRIMAL -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">35</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">VALORACIÓN DE <br> PELÍCULA LAGRIMAL</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/valoracion-de-pelicula-lagrimal.jpg" alt="VALORACIÓN DE PELÍCULA LAGRIMAL " class="img-fluid"/>
+            </div>
+            <!-- 36.-  MEIBOMIOGRAFÍA -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">36</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">MEIBOMIOGRAFÍA</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <img src="img/meibomiografia.jpg" alt="MEIBOMIOGRAFÍA" class="img-fluid"/>
+            </div>
+            <!-- 37.-  PERFIL DE OJO SECO -->
+            <div class="row pt-5 ms-3">
+                <div class="col-1 col-sm-6 me-2">
+                    <h1 class="display-1 me-5">37</h1>
+                </div>
+                <div class="col-10 col-sm-6 naranja">
+                    <h2 class="text-start ms-4">PERFIL DE <br> OJO SECO</h2>
+                </div>
+            </div>
+            <div class="row pt-3 imagenes ms-2">
+                <h6 class="naranja">VALORACIÓN DE PELÍCULA LAGRIMAL</h6>
+                <img src="img/perfil-ojo-seco-arriba.jpg" alt="PERFIL DE OJO SECO" class="img-fluid pb-4"/>
+                <h6 class="naranja">MEIBOMIOGRAFÍA</h6>
+                <img src="img/perfil-ojo-seco-abajo.jpg" alt="PERFIL DE OJO SECO" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+    <!--CONTACTO-->
+    <div class="sticky-top d-block d-sm-block d-md-none  onboarding-card" id="card_contacto"></div>
    
 
    <!--TERMIMNA MODO CELULAR-->
